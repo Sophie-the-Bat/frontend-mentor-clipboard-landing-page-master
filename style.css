@@ -11,6 +11,7 @@
     font-family: 'Bai Jamjuree', sans-serif;
     text-align: center;
     color: var(--clr-grayish-blue);
+    line-height: 2rem;
 }
 
 * {
@@ -33,4 +34,36 @@ section {
 .hero {
     background-image: url(./images/bg-header-desktop.png);
     background-position: top center;
+}
+
+.hero__heading {
+    font-size: 2rem;
+}
+
+.hero__summary {
+    width: 55ch;
+    margin-inline: auto;
+    padding: 2rem 0;
+    font-size: 1.15rem;
+}
+
+.download {
+    margin: 0 0.25rem;
+    padding: 1em 2em;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 2px 2px 3px rgba(0 0 0 / 0.5);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.download__green {
+    background-color: var(--clr-strong-cyan);
+}
+
+.download__blue {
+    background-color: var(--clr-light-blue);
 }
